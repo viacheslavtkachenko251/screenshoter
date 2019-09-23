@@ -1,0 +1,17 @@
+{
+  "name": "screenshoter",
+  "version": "1.0.0",
+  "description": "console screenshoter",
+  "main": "index.js",
+  "dependencies": {
+    "chrome-launcher": "^0.11.2",
+    "chrome-remote-interface": "^0.28.0",
+    "minimist": "^1.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
