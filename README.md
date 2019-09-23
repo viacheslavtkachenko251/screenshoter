@@ -14,13 +14,12 @@ sudo apt-get install -y nodejs
 # https://chromium.googlesource.com/chromium/src/+/lkgr/headless/README.md
 # --disable-gpu currently required, see link above
 google-chrome --headless --hide-scrollbars --remote-debugging-port=9222 --disable-gpu &
+# documentation headless chrome
+# https://chromedevtools.github.io/devtools-protocol/
 
 # Install script dependencies
 npm install chrome-remote-interface minimist
 
 # Take the screenshot
-for start chrome
-google-chrome --headless --hide-scrollbars --remote-debugging-port=9222 --disable-gpu &
-
 argv passed arguments when calling the script. exsample: 
 node script.js --url="http://www.eff.org" --argument="value" 
